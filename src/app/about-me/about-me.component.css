@@ -1,0 +1,15 @@
+.text{
+    font-size: 30px;
+    font-family: monospace;
+    color: #bf0404;
+    position: relative;
+    top: 30vh;
+}
+.ashish{
+    height: 500px;
+    margin-left: 50px;
+}
+.txt{
+    color: purple;
+    font-family: fantasy;
+}

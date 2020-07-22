@@ -1,0 +1,23 @@
+.item-detail-head{
+    font-size: 30px;
+}
+.item-detail-description{
+    font-size: 14px;
+}
+.item-details{
+    position: relative;
+    top: 2px;
+}
+.color{
+    color: #fff1e3;
+}
+.custom-btn-recipe{
+    background: green;
+    display: inline-block;
+    font-size: 13px;
+    color: #fff;
+    padding: 5px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}

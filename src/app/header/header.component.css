@@ -1,0 +1,21 @@
+.navbar-app .nav li a, .navbar-app .nav li a:hover, .navbar-app .nav li a:focus{
+    color: #fff !important;
+}
+.nav li.active{
+    border-bottom: 2px solid #ff0142;
+}
+.navbar-app .nav li a:hover, .navbar-app .nav li a:focus{
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+}
+.navbar-nav > li > a {
+    padding: 8px 0px;
+    margin: 0px 20px;
+}
+.navbar-nav > li{
+    margin: 5px;
+}
+.head{
+    color: #f74140;
+    font-size: x-large;
+}

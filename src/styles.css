@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    font-family: 'Gugi', cursive;
+    background:#16191c;
+    overflow-x: hidden;
+    color: #fff;
+}
+a{
+    cursor: pointer;
+}
+.custom-btn{
+    background: #ff0142;
+    display: inline-block;
+    font-size: 13px;
+    color: #fff;
+    padding: 5px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom-btn:hover{
+    color: #fff;
+}

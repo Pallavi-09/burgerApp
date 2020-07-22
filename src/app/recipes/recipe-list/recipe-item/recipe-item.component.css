@@ -1,0 +1,36 @@
+.item-list{
+    border: none;
+    background: #f9f9f9;
+}
+.paddingNone{
+    padding:0;
+}
+.item-head{
+    font-size: 30px;
+    color: #d6d8da !important;
+}
+span.stars span {
+    background-position: 0 0;
+}
+.item-description{
+    font-size: 14px;
+    color:#d6d8da !important;
+    min-height:100px;
+
+}
+.list-group-item.active{
+    background: #dbf5db !important;
+}
+.burger-recipe{
+    width: 385px;
+    float: left;
+}
+img{
+    display: inline;
+}
+.burger-recipe img{
+    height:200px;
+}
+.recipe-data-section{
+    width:500px;
+}

@@ -1,0 +1,10 @@
+<div class="burger-recipe ma3 bg-black dib pa3 tc grow shadow-4">
+    <img [src]="recipe.imagePath" alt="" class="img-responsive">
+    <h4 class="item-head">{{recipe.name}}</h4>
+    <p>{{recipe.rating}}</p>
+    <span ng-style="{ 'width': getStars(recipe.rating) }"></span>
+    <p class="item-description">{{recipe.description}}</p>
+    <span class="pull-left ma2"><i class="fa fa-heart"></i></span>
+    <button class="btn custom-btn tc" [routerLink]=[index]>Show Details</button>
+    <span class="pull-right">{{recipe.price}}/-</span>
+</div>

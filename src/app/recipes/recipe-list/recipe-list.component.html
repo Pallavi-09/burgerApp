@@ -1,0 +1,9 @@
+<div>
+    <div class="ma3">
+        <button class="btn custom-btn ma3 tc" (click)="onNewRecipe()">Add New Recipe</button>
+    </div>
+    <div>
+        <app-recipe-item *ngFor="let recipeEL of recipes; let i = index" [recipe]="recipeEL" [index]="i">
+        </app-recipe-item>
+    </div>
+</div>
